@@ -16,7 +16,7 @@ function Home() {
       <TopNavigation />
       <h1>Home</h1>
 <div className="home">
-      <img src={`http://localhost:3456/${storeObj.loginDetails.profilePic}`} className="userPic"></img>
+      <img src={`/${storeObj.loginDetails.profilePic}`} className="userPic"></img>
 
       <h2 style={{color:"#333333"}}>{storeObj.loginDetails.firstName} {storeObj.loginDetails.lastName}</h2>
 
